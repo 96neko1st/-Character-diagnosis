@@ -1,0 +1,47 @@
+body{
+    background: #ddd;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.stage{
+    margin: 0 auto;
+    width: 500px;
+    height: 260px;
+    overflow: hidden;
+}
+
+#cards{
+    width: 1500px;
+    height: 260px;
+    background: #cae6f4;
+    transition: 0.8s;
+}
+
+.card{
+    width: 450px;
+    height: 210px;
+    padding: 25px;
+    background: #fff;
+    float: left;
+    border-radius: 10px;
+}
+
+.card + .card{
+    margin-left: 500px;
+}
+
+#cards.move{
+    transform: translate(-1000px, 0);
+}
+
+.left-side{
+    width: 160px;
+    float: left;
+}
+
+.right-side{
+    width: 260px;
+    float: right;
+    text-align: center;
+}
